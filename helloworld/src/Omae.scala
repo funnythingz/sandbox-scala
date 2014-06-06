@@ -1,4 +1,4 @@
-object Omae extends Greeting {
+object Omae extends Greeting with FreeTalk {
 
   val name: String = "Omae";
 

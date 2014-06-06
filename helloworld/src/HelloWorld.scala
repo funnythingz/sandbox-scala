@@ -14,7 +14,7 @@ object HelloWorld {
     println(Ore.hello())
     println(Ore.goodNight())
 
-    println(Ore.say("Ore sama da!"))
+    println(Ore.speech("Ore sama da!"))
 
     /**
      * Omae

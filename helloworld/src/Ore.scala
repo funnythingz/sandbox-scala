@@ -1,4 +1,4 @@
-object Ore extends Greeting {
+object Ore extends Greeting with FreeTalk {
 
   val name: String = "Ore"
 
