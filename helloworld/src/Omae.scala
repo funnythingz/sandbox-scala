@@ -4,4 +4,6 @@ object Omae extends Greeting {
 
   def greeting(): String = firstMessage
 
+  override def hello(): String = "Hello Omae"
+
 }
