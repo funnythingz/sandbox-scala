@@ -14,6 +14,7 @@ object HelloWorld {
     println(Ore.hello())
     println(Ore.goodNight())
 
+    println(Ore.say("Ore sama da!"))
 
     /**
      * Omae
@@ -26,6 +27,8 @@ object HelloWorld {
     println(Omae.goodMorning())
     println(Omae.hello())
     println(Omae.goodNight())
+
+    println(Omae.sayName())
 
   }
 

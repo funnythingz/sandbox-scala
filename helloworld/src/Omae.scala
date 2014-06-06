@@ -1,5 +1,7 @@
 object Omae extends Greeting {
 
+  val name: String = "Omae";
+
   val firstMessage: String = "Omae da!"
 
   def greeting(): String = firstMessage
