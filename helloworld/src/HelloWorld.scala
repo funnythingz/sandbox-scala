@@ -1,9 +1,10 @@
-/**
- * Created by funnythingz on 2014/06/06.
- */
 object HelloWorld {
 
   def main(args: Array[String]) {
+
+    /**
+     * Ore
+     */
 
     // method
     println(Ore.greeting())
@@ -13,24 +14,19 @@ object HelloWorld {
     println(Ore.hello())
     println(Ore.goodNight())
 
+
+    /**
+     * Omae
+     */
+
+    // method
+    println(Omae.greeting())
+
+    // use trait
+    println(Omae.goodMorning())
+    println(Omae.hello())
+    println(Omae.goodNight())
+
   }
-
-}
-
-object Ore extends Greeting {
-
-  val firstMessage: String = "Hey!"
-
-  def greeting(): String = firstMessage
-
-}
-
-trait Greeting {
-
-  def goodMorning(): String = "Good morning!"
-
-  def hello(): String = "Hello!"
-
-  def goodNight(): String = "Good night!"
 
 }
