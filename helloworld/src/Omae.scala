@@ -1,6 +1,6 @@
 object Omae extends Greeting with FreeTalk {
 
-  val name: String = "Omae";
+  val name: String = "Omae"
 
   val firstMessage: String = "Omae da!"
 

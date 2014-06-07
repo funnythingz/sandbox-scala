@@ -2,9 +2,12 @@ object HelloWorld {
 
   def main(args: Array[String]) {
 
-    /**
-     * Ore
-     */
+    ore()
+    omae()
+
+  }
+
+  def ore() {
 
     // method
     println(Ore.greeting())
@@ -16,9 +19,9 @@ object HelloWorld {
 
     println(Ore.speech("Ore sama da!"))
 
-    /**
-     * Omae
-     */
+  }
+
+  def omae() {
 
     // method
     println(Omae.greeting())
